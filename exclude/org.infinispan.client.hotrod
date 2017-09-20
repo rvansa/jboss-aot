@@ -1,0 +1,10 @@
+# jdk.vm.ci.hotspot.HotSpotUnresolvedField cannot be cast to jdk.internal.vm.ci/jdk.vm.ci.meta.ResolvedJavaField
+exclude org.infinispan.client.hotrod.impl.query.RemoteQuery.checkParameters()V
+exclude org.infinispan.client.hotrod.impl.query.RemoteQuery.toString()Ljava/lang/String;
+exclude org.infinispan.client.hotrod.impl.query.RemoteQuery.list()Ljava/util/List;
+exclude org.infinispan.client.hotrod.impl.query.RemoteQuery.executeQuery()V
+exclude org.infinispan.client.hotrod.impl.query.RemoteQuery.unwrapResults(ILjava/util/List;)Ljava/util/List;
+exclude org.infinispan.client.hotrod.impl.query.RemoteQuery.getResultSize()I
+# Missing ProtobufUtil
+exclude org.infinispan.client.hotrod.event.ContinuousQueryImpl$ClientEntryListener.handleEvent(Lorg/infinispan/client/hotrod/event/ClientCacheEntryCustomEvent;)V 
+exclude org.infinispan.client.hotrod.event.ClientEvents$ClientEntryListener.handleClientCacheEntryCreatedEvent(Lorg/infinispan/client/hotrod/event/ClientCacheEntryCustomEvent;)V

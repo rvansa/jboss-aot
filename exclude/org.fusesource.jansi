@@ -1,0 +1,3 @@
+# missing native bindings
+exclude org.fusesource.jansi.AnsiConsole.*
+exclude org.fusesource.jansi.WindowsAnsiOutputStream.*

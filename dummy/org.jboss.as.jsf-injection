@@ -1,0 +1,7 @@
+class org.apache.myfaces.config.annotation.LifecycleProviderFactory
+class org.apache.myfaces.spi.InjectionProvider
+class org.apache.myfaces.spi.InjectionProviderFactory
+class org.apache.myfaces.spi.AnnotationProvider
+class org.apache.myfaces.spi.InjectionProviderException extends Exception
+interface org.apache.myfaces.config.annotation.LifecycleProvider
+interface org.apache.myfaces.config.annotation.LifecycleProvider2 extends org.apache.myfaces.config.annotation.LifecycleProvider

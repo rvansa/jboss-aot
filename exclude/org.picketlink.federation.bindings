@@ -1,0 +1,13 @@
+# java.lang.ClassCastException: jdk.internal.vm.ci/jdk.vm.ci.hotspot.HotSpotUnresolvedField cannot be cast to jdk.internal.vm.ci/jdk.vm.ci.meta.ResolvedJavaField
+exclude org.picketlink.identity.federation.bindings.tomcat.sp.BaseFormAuthenticator.startPicketLink()V
+exclude org.picketlink.identity.federation.bindings.tomcat.sp.BaseFormAuthenticator.processIDPMetadataFile(Ljava/lang/String;)V
+exclude org.picketlink.identity.federation.bindings.tomcat.sp.BaseFormAuthenticator.processConfiguration()V
+exclude org.picketlink.identity.federation.bindings.tomcat.sp.BaseFormAuthenticator.sendToLogoutPage(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;Lorg/apache/catalina/Session;)V
+exclude org.picketlink.identity.federation.bindings.tomcat.sp.BaseFormAuthenticator.testStart()V
+exclude org.picketlink.identity.federation.bindings.tomcat.sp.BaseFormAuthenticator$1.run()V
+exclude org.picketlink.identity.federation.bindings.tomcat.sp.BaseFormAuthenticator.access$000(Lorg/picketlink/identity/federation/bindings/tomcat/sp/BaseFormAuthenticator;)Lorg/apache/catalina/Context;
+exclude org.picketlink.identity.federation.bindings.tomcat.sp.AbstractSAML11SPRedirectFormAuthenticator.startPicketLink()V
+exclude org.picketlink.identity.federation.bindings.tomcat.sp.AbstractSPFormAuthenticator.startPicketLink()V
+exclude org.picketlink.identity.federation.bindings.tomcat.idp.AbstractIDPValve.authenticateSSL(Lorg/apache/catalina/connector/Request;Lorg/apache/catalina/connector/Response;)Ljava/security/Principal;
+exclude org.picketlink.identity.federation.bindings.tomcat.AbstractPicketLinkAuthenticator.getSubjectPrincipal()Ljava/security/Principal;
+

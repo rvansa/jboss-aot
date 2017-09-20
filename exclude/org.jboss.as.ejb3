@@ -1,0 +1,5 @@
+# use of sun.reflect API
+exclude org.jboss.as.ejb3.deployment.processors.EjbLookupInjectionSource$1$1.getInstance()Ljava/lang/Object;
+exclude org.jboss.as.ejb3.iiop.handle.HandleDelegateImpl.readEJBObject(Ljava/io/ObjectInputStream;)Ljavax/ejb/EJBObject;
+exclude org.jboss.as.ejb3.iiop.handle.HandleDelegateImpl.readEJBHome(Ljava/io/ObjectInputStream;)Ljavax/ejb/EJBHome;
+exclude org.jboss.as.ejb3.iiop.EjbIIOPService.start(Lorg/jboss/msc/service/StartContext;)V

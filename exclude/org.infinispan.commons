@@ -1,0 +1,7 @@
+# OSGi reference
+exclude org.infinispan.commons.util.OsgiClassLoader$LazyHolder.<clinit>()V
+exclude org.infinispan.commons.util.OsgiClassLoader.<init>()V
+exclude org.infinispan.commons.util.OsgiClassLoader.<init>(Lorg/infinispan/commons/util/OsgiClassLoader$1;)V
+exclude org.infinispan.commons.util.OsgiClassLoader.findResource(Ljava/lang/String;)Ljava/net/URL;
+exclude org.infinispan.commons.util.OsgiClassLoader.findClass(Ljava/lang/String;)Ljava/lang/Class;
+exclude org.infinispan.commons.util.OsgiClassLoader.findResources(Ljava/lang/String;)Ljava/util/Enumeration;

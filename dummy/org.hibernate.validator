@@ -1,0 +1,3 @@
+interface com.thoughtworks.paranamer.Paranamer
+interface com.thoughtworks.paranamer.CachingParanamer
+interface com.thoughtworks.paranamer.AdaptiveParanamer

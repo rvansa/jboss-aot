@@ -1,0 +1,9 @@
+# Missing Apache logging LogFactory
+exclude org.jboss.as.clustering.jgroups.auth.CipherAuthToken.<init>()V
+exclude org.jboss.as.clustering.jgroups.subsystem.PlainAuthTokenBuilder.apply(Ljava/lang/Object;)Ljava/lang/Object;
+exclude org.jboss.as.clustering.jgroups.subsystem.PlainAuthTokenBuilder.apply(Ljava/lang/String;)Lorg/jboss/as/clustering/jgroups/auth/BinaryAuthToken;
+exclude org.jboss.as.clustering.jgroups.auth.CipherAuthToken.<init>(Ljavax/crypto/Cipher;Ljava/security/KeyPair;[B)V
+exclude org.jboss.as.clustering.jgroups.auth.BinaryAuthToken.<init>()V
+exclude org.jboss.as.clustering.jgroups.auth.BinaryAuthToken.<init>([B)V
+exclude org.jboss.as.clustering.jgroups.subsystem.DigestAuthTokenBuilder.apply(Ljava/lang/String;)Lorg/jboss/as/clustering/jgroups/auth/BinaryAuthToken;
+exclude org.jboss.as.clustering.jgroups.subsystem.DigestAuthTokenBuilder.apply(Ljava/lang/Object;)Ljava/lang/Object;
