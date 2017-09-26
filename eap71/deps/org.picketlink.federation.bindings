@@ -1,8 +1,8 @@
-# The full transitive dependency list is too long
-#-org.jboss.ws.jaxws-client
-#-org.jboss.as.webservices
-#-org.jboss.as.web-common
-#-org.jboss.as.naming
-#-org.jboss.as.controller
-#-org.jboss.as.clustering
 #+javax.persistence.api
+#-org.jboss.as.clustering
+#-org.jboss.as.controller
+#-org.jboss.as.naming
+#-org.jboss.as.web-common
+#-org.jboss.as.webservices
+#-org.jboss.ws.jaxws-client
+# The full transitive dependency list is too long

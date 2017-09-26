@@ -1,5 +1,5 @@
-# The full transitive dependency list is too long
--org.jboss.ws.jaxws-client
--org.jboss.as.webservices
--org.jboss.as.web-common
 +javax.persistence.api
+-org.jboss.as.web-common
+-org.jboss.as.webservices
+-org.jboss.ws.jaxws-client
+# The full transitive dependency list is too long

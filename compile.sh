@@ -147,7 +147,9 @@ for MODULE_XML in `find $JBOSS_HOME/modules -iname 'module.xml'`; do
          echo "package $PACKAGE; public $TYPE $CLASSNAME $EXTRA" > $SOURCE
          SOURCES="$SOURCES $SOURCE"
       done < $AOT/$VERSION/mock/$NAME
-      javac -cp $DEPS -d $MOCK_DEPS $SOURCES || exit 1
+      if [ -n "$SOURCES" ]; then
+         javac -cp $DEPS -d $MOCK_DEPS $SOURCES || exit 1
+      fi
       DEPS="$DEPS:$MOCK_DEPS"
       CLEANUP="$CLEANUP $MOCK_DEPS"
    fi

@@ -1,8 +1,8 @@
-+org.jboss.logging
-+org.jboss.resteasy.resteasy-jaxrs
-+javax.ws.rs.api
 +javax.servlet.api
-+org.apache.httpcomponents
++javax.ws.rs.api
 +org.apache.commons.io
++org.apache.httpcomponents
++org.jboss.logging
 +org.jboss.logmanager
 +org.jboss.logmanager.commons.logging
++org.jboss.resteasy.resteasy-jaxrs
