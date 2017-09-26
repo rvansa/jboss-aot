@@ -1,6 +1,0 @@
-exclude org.apache.cxf.ws.discovery.listeners.WSDiscoveryServerListener.getStaticService()Lorg/apache/cxf/ws/discovery/internal/WSDiscoveryServiceImpl;
-exclude org.apache.cxf.ws.discovery.listeners.WSDiscoveryServerListener.getService()Lorg/apache/cxf/ws/discovery/internal/WSDiscoveryServiceImpl;
-exclude org.apache.cxf.ws.discovery.listeners.WSDiscoveryServerListener.startServer(Lorg/apache/cxf/endpoint/Server;)V
-exclude org.apache.cxf.ws.discovery.listeners.WSDiscoveryServerListener.stopServer(Lorg/apache/cxf/endpoint/Server;)V
-exclude org.apache.cxf.ws.discovery.listeners.WSDiscoveryServerListener$WSDiscoveryServiceImplHolder.access$000()Lorg/apache/cxf/ws/discovery/internal/WSDiscoveryServiceImpl;
-exclude org.apache.cxf.ws.discovery.listeners.WSDiscoveryServerListener$WSDiscoveryServiceImplHolder.<clinit>()V

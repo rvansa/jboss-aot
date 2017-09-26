@@ -1,10 +1,13 @@
 #!/bin/bash
 trap "exit" INT
-
-JBOSS_HOME=$HOME/runtime/jboss-eap-7.1-jdk9
-VERSION=eap71
 AOT=$(dirname $0)
 
+if [ -z "$JBOSS_HOME" ]; then
+   JBOSS_HOME=$HOME/runtime/jboss-eap-7.1-jdk9
+fi
+if [ -z "$VERSION" ]; then
+   VERSION=eap71
+fi
 if [ -z "$JAVA_OPTS" ]; then
    JAVA_OPTS="-XX:+UseCompressedOops"
 fi
@@ -156,7 +159,7 @@ for MODULE_XML in `find $JBOSS_HOME/modules -iname 'module.xml'`; do
 # Add custom properties required e.g. by static constructors
    PROPS=""
    if [ -f $AOT/$VERSION/props/$NAME ]; then
-      for PROP in `cat $AOT/props/$NAME`; do
+      for PROP in `cat $AOT/$VERSION/props/$NAME`; do
 	if [[ $PROP == \#* ]]; then continue; fi;
 	PROPS="$PROPS -J-D$PROP"
       done

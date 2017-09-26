@@ -1,4 +1,0 @@
-exclude org.apache.cxf.sts.token.renewer.SAMLTokenRenewer.renewToken(Lorg/apache/cxf/sts/token/renewer/TokenRenewerParameters;)Lorg/apache/cxf/sts/token/renewer/TokenRenewerResponse;
-exclude org.apache.cxf.sts.token.renewer.SAMLTokenRenewer.createNewConditions(Lorg/apache/wss4j/common/saml/SamlAssertionWrapper;Lorg/apache/cxf/sts/token/renewer/TokenRenewerParameters;)V
-exclude org.apache.cxf.sts.token.provider.jwt.JWTTokenProvider.signToken(Lorg/apache/cxf/rs/security/jose/jwt/JwtClaims;Lorg/apache/cxf/sts/token/realm/RealmProperties;Lorg/apache/cxf/sts/STSPropertiesMBean;)Ljava/lang/String;
-exclude org.apache.cxf.sts.token.provider.SAMLTokenProvider.createSamlToken(Lorg/apache/cxf/sts/token/provider/TokenProviderParameters;[BLorg/w3c/dom/Document;)Lorg/apache/wss4j/common/saml/SamlAssertionWrapper;

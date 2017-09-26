@@ -1,2 +1,0 @@
-exclude org.apache.avro.file.BZip2Codec.decompress(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
-exclude org.apache.avro.file.BZip2Codec.compress(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;

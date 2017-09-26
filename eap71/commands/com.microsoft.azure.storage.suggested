@@ -1,2 +1,0 @@
-exclude com.microsoft.azure.storage.analytics.LogRecord.populateVersion1Log(Lcom/microsoft/azure/storage/analytics/LogRecordStreamReader;)V
-exclude com.microsoft.azure.storage.analytics.LogRecordStreamReader.readUri()Ljava/net/URI;

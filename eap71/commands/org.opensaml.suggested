@@ -1,5 +1,0 @@
-exclude net.shibboleth.utilities.java.support.httpclient.HttpClientSupport.buildStrictSSLConnectionSocketFactory()Lorg/apache/http/conn/ssl/SSLConnectionSocketFactory;
-exclude net.shibboleth.utilities.java.support.httpclient.HttpClientSupport.buildNoTrustSSLConnectionSocketFactory()Lorg/apache/http/conn/ssl/SSLConnectionSocketFactory;
-exclude net.shibboleth.utilities.java.support.httpclient.FileCachingHttpClientBuilder.buildClient()Lorg/apache/http/client/HttpClient;
-exclude net.shibboleth.utilities.java.support.httpclient.HttpClientBuilder.decorateApacheBuilder()V
-exclude net.shibboleth.utilities.java.support.httpclient.FileCachingHttpClientBuilder$StorageManagingHttpClient.<init>(Lorg/apache/http/impl/client/CloseableHttpClient;Lorg/apache/http/impl/client/cache/ManagedHttpCacheStorage;J)V

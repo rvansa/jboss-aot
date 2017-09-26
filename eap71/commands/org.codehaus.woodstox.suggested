@@ -1,2 +1,0 @@
-exclude com.ctc.wstx.msv.GenericMsvValidator.reportError(Lcom/sun/msv/util/StringRef;)V
-exclude com.ctc.wstx.msv.GenericMsvValidator.onID(Lorg/relaxng/datatype/Datatype;Lcom/sun/msv/verifier/regexp/StringToken;)V

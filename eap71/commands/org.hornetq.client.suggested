@@ -1,1 +1,0 @@
-exclude org.hornetq.api.core.JGroupsBroadcastGroupConfiguration$JGroupsBroadcastEndpoint$JChannelWrapper.<init>(Ljava/lang/String;Ljava/lang/Object;)V

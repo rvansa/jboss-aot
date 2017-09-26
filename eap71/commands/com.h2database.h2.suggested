@@ -1,1 +1,0 @@
-exclude org.h2.message.TraceWriterAdapter.<init>()V
