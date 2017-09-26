@@ -1,0 +1,5 @@
+exclude org.apache.activemq.artemis.cli.commands.user.HelpUser.execute(Lorg/apache/activemq/artemis/cli/commands/ActionContext;)Ljava/lang/Object;
+exclude org.apache.activemq.artemis.cli.commands.tools.HelpData.execute(Lorg/apache/activemq/artemis/cli/commands/ActionContext;)Ljava/lang/Object;
+exclude org.apache.activemq.artemis.cli.commands.destination.HelpDestination.execute(Lorg/apache/activemq/artemis/cli/commands/ActionContext;)Ljava/lang/Object;
+exclude org.apache.activemq.artemis.api.core.JGroupsFileBroadcastEndpoint.createChannel()Lorg/jgroups/JChannel;
+exclude org.apache.activemq.artemis.api.core.JGroupsPropertiesBroadcastEndpoint.createChannel()Lorg/jgroups/JChannel;

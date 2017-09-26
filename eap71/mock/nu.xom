@@ -1,0 +1,2 @@
+class junit.framework.TestCase
+class junit.framework.ComparisonFailure extends Error

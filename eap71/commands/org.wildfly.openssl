@@ -1,0 +1,17 @@
+# No wfssl in java.library.path
+exclude org.wildfly.openssl.OpenSSLEngine.*
+exclude org.wildfly.openssl.OpenSSlSession.*
+exclude org.wildfly.openssl.OpenSSLContextSPI\$1.createSocket.*
+exclude org.wildfly.openssl.OpenSSLInputStream.read.*
+exclude org.wildfly.openssl.OpenSSLClientSessionContext.storeClientSideSession(JLjava/lang/String;I[B)V
+exclude org.wildfly.openssl.OpenSSLSessionContext.sessionCreatedCallback(JJ[B)V
+exclude org.wildfly.openssl.OpenSSLSessionContext.clientSessionCreated(JJ[B)V
+exclude org.wildfly.openssl.OpenSSLOutputStream.write.*
+exclude org.wildfly.openssl.OpenSSLSocket.*
+exclude org.wildfly.openssl.OpenSSLServerSocket.accept()Ljava/net/Socket;
+exclude org.wildfly.openssl.OpenSSLContextSPI.createSSLEngine.*
+# Access to jdk.internal.ref.Cleaner
+exclude org.wildfly.openssl.ByteBufferUtils.expand(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+exclude org.wildfly.openssl.ByteBufferUtils.expand(Ljava/nio/ByteBuffer;I)Ljava/nio/ByteBuffer;
+exclude org.wildfly.openssl.ByteBufferUtils.cleanDirectBuffer(Ljava/nio/ByteBuffer;)V
+exclude org.wildfly.openssl.ByteBufferUtils.<clinit>()V

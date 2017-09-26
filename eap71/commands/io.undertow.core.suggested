@@ -1,0 +1,6 @@
+exclude io.undertow.protocols.alpn.JettyAlpnProvider$Impl$1.unsupported()V
+exclude io.undertow.protocols.alpn.JettyAlpnProvider$Impl$1.select(Ljava/util/List;)Ljava/lang/String;
+exclude io.undertow.protocols.alpn.JettyAlpnProvider$Impl.setProtocols(Ljavax/net/ssl/SSLEngine;[Ljava/lang/String;)Ljavax/net/ssl/SSLEngine;
+exclude io.undertow.protocols.alpn.JettyAlpnProvider$ALPNClientSelectionProvider.unsupported()V
+exclude io.undertow.protocols.alpn.JettyAlpnProvider$ALPNClientSelectionProvider.selected(Ljava/lang/String;)V
+exclude io.undertow.protocols.alpn.JettyAlpnProvider.setProtocols(Ljavax/net/ssl/SSLEngine;[Ljava/lang/String;)Ljavax/net/ssl/SSLEngine;

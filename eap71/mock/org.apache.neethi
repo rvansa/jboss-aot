@@ -1,0 +1,4 @@
+interface org.apache.axiom.om.OMElement
+class org.apache.axiom.om.OMException extends Exception
+class org.apache.axiom.om.OMXMLBuilderFactory
+class org.apache.axiom.om.OMAbstractFactory

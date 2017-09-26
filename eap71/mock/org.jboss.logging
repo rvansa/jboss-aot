@@ -1,0 +1,6 @@
+class org.apache.logging.log4j.LoggingException extends Exception
+interface org.apache.logging.log4j.message.Message
+interface org.apache.logging.log4j.Level
+interface org.apache.logging.log4j.LogManager
+interface org.apache.logging.log4j.ThreadContext
+class org.apache.logging.log4j.spi.AbstractLogger

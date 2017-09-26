@@ -1,0 +1,32 @@
+class org.opensaml.messaging.context.BaseContext
+interface org.opensaml.messaging.context.navigate.ContextDataLookupFunction
+interface org.opensaml.messaging.decoder.MessageDecoder
+interface org.opensaml.messaging.encoder.MessageEncoder
+class org.opensaml.messaging.context.InOutOperationContext
+interface org.opensaml.messaging.handler.MessageHandler
+class org.opensaml.messaging.handler.AbstractMessageHandler
+class com.beust.jcommander.converters.BaseConverter
+class org.opensaml.messaging.decoder.servlet.BaseHttpServletRequestXMLMessageDecoder
+class org.opensaml.soap.soap11.decoder.http.impl.HTTPSOAP11Decoder
+class org.opensaml.messaging.encoder.servlet.BaseHttpServletResponseXMLMessageEncoder
+class org.opensaml.soap.soap11.encoder.http.impl.HTTPSOAP11Encoder
+interface org.opensaml.storage.StorageSerializer
+interface org.opensaml.messaging.context.MessageContext
+class org.opensaml.messaging.decoder.MessageDecodingException extends Exception
+class org.opensaml.messaging.handler.MessageHandlerException extends Exception
+class org.opensaml.messaging.encoder.MessageEncodingException extends Exception
+class org.apache.http.impl.client.cache.ManagedHttpCacheStorage extends org.apache.http.client.cache.HttpCacheStorage
+interface org.opensaml.storage.ReplayCache
+class org.apache.http.impl.client.cache.CachingHttpClientBuilder extends org.apache.http.impl.client.HttpClientBuilder
+class org.apache.http.client.cache.ResourceFactory
+class org.apache.http.impl.client.cache.FileResourceFactory extends org.apache.http.client.cache.ResourceFactory
+class org.apache.http.client.cache.HttpCacheStorage
+class org.opensaml.messaging.MessageException extends Exception
+class org.opensaml.storage.StorageService
+class org.apache.http.impl.client.cache.HeapResourceFactory extends org.apache.http.client.cache.ResourceFactory
+class org.apache.http.impl.client.cache.BasicHttpCacheStorage extends org.apache.http.client.cache.HttpCacheStorage
+class org.opensaml.messaging.context.navigate.ChildContextLookup
+class org.opensaml.messaging.context.navigate.MessageLookup
+class org.apache.http.impl.client.cache.CacheConfig
+class org.opensaml.messaging.context.MessageChannelSecurityContext
+class com.beust.jcommander.JCommander

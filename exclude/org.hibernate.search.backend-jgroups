@@ -1,2 +1,0 @@
-# Missing reference to Apache logging
-exclude org.hibernate.search.backend.jgroups.impl.DispatchMessageSender.buildChannel(Ljava/util/Properties;)Lorg/hibernate/search/backend/jgroups/impl/DispatchMessageSender$ChannelContainer;

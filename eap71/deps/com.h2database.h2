@@ -1,0 +1,5 @@
++javax.servlet.api
++org.apache.lucene
++org.slf4j
++org.slf4j.impl
++org.jboss.logmanager

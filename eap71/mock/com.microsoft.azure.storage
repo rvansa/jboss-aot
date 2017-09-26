@@ -1,0 +1,3 @@
+interface com.microsoft.azure.keyvault.core.IKey
+interface com.microsoft.azure.keyvault.core.IKeyResolver
+interface org.apache.commons.lang3.StringEscapeUtils

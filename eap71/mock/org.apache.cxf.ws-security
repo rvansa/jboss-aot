@@ -1,0 +1,19 @@
+class net.sf.ehcache.Cache
+interface net.sf.ehcache.config.CacheConfiguration
+interface net.sf.ehcache.config.ConfigurationFactory
+interface net.sf.ehcache.CacheManager
+interface net.sf.ehcache.Ehcache
+interface net.sf.ehcache.Element
+class net.sf.ehcache.CacheException extends Exception
+class org.springframework.beans.BeansException extends Exception
+class org.springframework.context.ApplicationContext
+class org.springframework.context.ConfigurableApplicationContext extends org.springframework.context.ApplicationContext
+class org.springframework.context.support.ClassPathXmlApplicationContext extends org.springframework.context.ConfigurableApplicationContext
+class org.springframework.context.ApplicationContextException extends Exception
+class org.springframework.beans.factory.xml.NamespaceHandlerResolver
+class org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver extends org.springframework.beans.factory.xml.NamespaceHandlerResolver
+class org.springframework.beans.factory.support.BeanDefinitionRegistry
+class org.springframework.beans.factory.support.DefaultListableBeanFactory extends org.springframework.beans.factory.support.BeanDefinitionRegistry
+interface org.springframework.beans.factory.xml.XmlBeanDefinitionReader
+interface org.springframework.core.io.ResourceLoader
+interface org.springframework.core.io.Resource

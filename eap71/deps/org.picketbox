@@ -1,0 +1,6 @@
++javax.security.auth.message.api
++javax.transaction.api
++org.jboss.security.xacml
++javax.resource.api
++javax.persistence.api
++javax.xml.bind.api

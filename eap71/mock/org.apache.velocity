@@ -1,0 +1,12 @@
+class org.apache.tools.ant.Task
+class org.apache.tools.ant.taskdefs.MatchingTask
+class org.apache.log.format.PatternFormatter
+class org.apache.tools.ant.BuildException extends Exception
+class org.apache.oro.text.perl.MalformedPerl5PatternException extends Exception
+interface org.apache.log.format.Formatter
+interface com.werken.xpath.XPath
+interface org.apache.oro.text.perl.Perl5Util
+class org.apache.log.Priority { public static final Priority DEBUG = new Priority(); public static final Priority INFO = new Priority(); public static final Priority WARN = new Priority(); public static final Priority ERROR = new Priority(); }
+interface org.apache.log.Hierarchy
+interface org.apache.tools.ant.DirectoryScanner
+interface org.apache.log.Logger

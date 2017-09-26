@@ -1,0 +1,4 @@
+exclude io.netty.channel.udt.nio.NioUdtByteConnectorChannel.<init>()V
+exclude io.netty.channel.udt.nio.NioUdtProvider.<init>(Lcom/barchart/udt/TypeUDT;Lcom/barchart/udt/nio/KindUDT;)V
+exclude io.netty.channel.udt.nio.NioUdtMessageConnectorChannel.<init>(Lcom/barchart/udt/TypeUDT;)V
+exclude io.netty.channel.udt.nio.NioUdtByteConnectorChannel$2.<clinit>()V

@@ -1,0 +1,2 @@
+# Missing Apache Log4j logging
+exclude org.jboss.jca.core.workmanager.transport.remote.jgroups.JGroupsConfiguration.start()V

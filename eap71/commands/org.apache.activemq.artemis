@@ -1,0 +1,4 @@
+# ClassCastException: jdk.internal.vm.ci/jdk.vm.ci.hotspot.HotSpotUnresolvedField cannot be cast to jdk.internal.vm.ci/jdk.vm.ci.meta.ResolvedJavaField
+exclude org.apache.activemq.artemis.cli.commands.user.HelpUser.execute(Lorg/apache/activemq/artemis/cli/commands/ActionContext;)Ljava/lang/Object;
+exclude org.apache.activemq.artemis.cli.commands.tools.HelpData.execute(Lorg/apache/activemq/artemis/cli/commands/ActionContext;)Ljava/lang/Object;
+exclude org.apache.activemq.artemis.cli.commands.destination.HelpDestination.execute(Lorg/apache/activemq/artemis/cli/commands/ActionContext;)Ljava/lang/Object;

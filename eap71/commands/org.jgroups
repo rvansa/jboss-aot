@@ -1,0 +1,2 @@
+exclude org.jgroups.tests..*
+exclude org.jgroups.logging.Log4J2LogImpl.<init>.*

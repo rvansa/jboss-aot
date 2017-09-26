@@ -1,0 +1,2 @@
+# RAM usage report fails?
+exclude org.apache.lucene.util.RamUsageEstimator.<clinit>()V

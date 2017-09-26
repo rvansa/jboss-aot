@@ -1,0 +1,8 @@
+interface com.mongodb.DBObject
+interface com.mongodb.DBCursor
+interface com.mongodb.MongoClient
+interface com.mongodb.DB
+interface com.mongodb.BasicDBObject
+interface com.mongodb.util.JSON
+interface com.mongodb.MongoClientURI
+interface com.mongodb.DBCollection

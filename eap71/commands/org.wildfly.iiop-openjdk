@@ -1,0 +1,3 @@
+# Use of sun.reflect API
+exclude org.wildfly.iiop.openjdk.rmi.marshal.strategy.StubStrategy.convertLocalRetval(Ljava/lang/Object;)Ljava/lang/Object;
+exclude org.wildfly.iiop.openjdk.rmi.marshal.CDRStream$RemoteReader.read(Lorg/omg/CORBA_2_3/portable/InputStream;)Ljava/lang/Object;

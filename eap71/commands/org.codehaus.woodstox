@@ -1,0 +1,3 @@
+# ClassCastException: jdk.internal.vm.ci/jdk.vm.ci.hotspot.HotSpotUnresolvedField cannot be cast to jdk.internal.vm.ci/jdk.vm.ci.meta.ResolvedJavaField
+exclude com.ctc.wstx.msv.GenericMsvValidator.reportError(Lcom/sun/msv/util/StringRef;)V
+exclude com.ctc.wstx.msv.GenericMsvValidator.onID(Lorg/relaxng/datatype/Datatype;Lcom/sun/msv/verifier/regexp/StringToken;)V

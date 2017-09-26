@@ -1,0 +1,4 @@
+exclude com.sun.xml.messaging.saaj.packaging.mime.internet.MimePullMultipart.parse()V
+exclude com.sun.xml.messaging.saaj.packaging.mime.internet.MimePullMultipart.parseAll()V
+exclude com.sun.xml.messaging.saaj.packaging.mime.internet.MimePullMultipart.readSOAPPart()V
+exclude com.sun.xml.messaging.saaj.packaging.mime.internet.MimePullMultipart.readAndReturnSOAPPart()Lorg/jvnet/mimepull/MIMEPart;

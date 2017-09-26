@@ -1,0 +1,7 @@
+# NPE in XMLObjectProviderRegistrySupport.getBuilderFactory
+exclude org.apache.cxf.rt.security.saml.xacml2.SamlRequestComponentBuilder.*
+exclude org.apache.cxf.rt.security.saml.xacml2.AbstractXACMLAuthorizingInterceptor.authorize(Ljava/security/Principal;Ljava/util/List;Lorg/apache/cxf/message/Message;)Z
+exclude org.apache.cxf.rt.security.saml.xacml2.DefaultXACMLRequestBuilder.*
+exclude org.apache.cxf.rt.security.saml.xacml2.RequestComponentBuilder.*
+# Instantiates (mock) org.springframework.core.io.ClassPathResource
+exclude org.apache.cxf.ws.discovery.listeners.WSDiscoveryServerListener.*

@@ -1,0 +1,86 @@
+abstract class org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser
+class org.osgi.framework.FrameworkUtil
+class org.osgi.framework.InvalidSyntaxException extends Exception
+class org.osgi.service.blueprint.container.NoSuchComponentException extends Exception
+class org.osgi.service.blueprint.reflect.BeanMetadata
+class org.osgi.service.blueprint.reflect.CollectionMetadata
+class org.osgi.service.blueprint.reflect.MapMetadata
+class org.osgi.service.cm.ConfigurationException extends Exception
+class org.osgi.util.tracker.ServiceTracker
+class org.springframework.beans.factory.xml.NamespaceHandlerSupport
+class org.springframework.osgi.util.BundleDelegatingClassLoader
+interface org.apache.aries.blueprint.NamespaceHandler
+interface org.osgi.framework.Bundle
+interface org.osgi.framework.BundleActivator
+interface org.osgi.framework.BundleContext
+interface org.osgi.framework.BundleEvent
+interface org.osgi.framework.BundleListener
+interface org.osgi.framework.ServiceReference
+interface org.osgi.framework.ServiceRegistration
+interface org.osgi.framework.SynchronousBundleListener
+interface org.osgi.framework.Version
+interface org.osgi.service.blueprint.container.BlueprintContainer
+interface org.osgi.service.blueprint.container.Converter
+interface org.osgi.service.blueprint.container.ReifiedType
+interface org.osgi.service.blueprint.reflect.ComponentMetadata
+interface org.osgi.service.blueprint.reflect.Metadata
+interface org.osgi.service.blueprint.reflect.RefMetadata
+interface org.osgi.service.blueprint.reflect.Target
+interface org.osgi.service.blueprint.reflect.ValueMetadata
+interface org.osgi.service.cm.Configuration
+interface org.osgi.service.cm.ConfigurationAdmin
+interface org.osgi.service.cm.ManagedService
+interface org.osgi.service.cm.ManagedServiceFactory
+class org.osgi.util.tracker.ServiceTracker
+interface org.springframework.context.ApplicationContextAware
+interface org.springframework.beans.factory.FactoryBean
+interface org.springframework.beans.factory.DisposableBean
+interface org.springframework.beans.PropertyEditorRegistrar
+interface org.springframework.context.ApplicationListener
+interface org.osgi.util.tracker.ServiceTrackerCustomizer
+abstract class org.springframework.beans.factory.xml.AbstractSimpleBeanDefinitionParser
+class org.junit.Assert
+class org.junit.rules.TemporaryFolder
+interface org.springframework.beans.factory.config.BeanPostProcessor
+interface org.springframework.web.context.ServletConfigAware
+interface org.springframework.beans.factory.BeanFactoryAware
+abstract class org.springframework.web.servlet.handler.AbstractUrlHandlerMapping
+interface org.springframework.web.servlet.mvc.Controller
+interface org.apache.aries.blueprint.ParserContext
+interface org.springframework.beans.factory.config.BeanDefinition
+interface org.springframework.beans.factory.xml.ParserContext
+interface org.springframework.beans.factory.support.BeanDefinitionBuilder
+interface org.springframework.beans.factory.xml.BeanDefinitionParser
+interface org.springframework.context.ApplicationContext
+class org.springframework.beans.BeansException extends Exception
+interface org.apache.aries.blueprint.PassThroughMetadata
+interface org.apache.aries.blueprint.mutable.MutableBeanMetadata
+class org.junit.ComparisonFailure extends Error
+interface org.springframework.beans.factory.BeanFactory
+interface org.springframework.web.servlet.ModelAndView
+interface org.springframework.beans.factory.support.AbstractBeanDefinition
+class org.springframework.beans.factory.BeanDefinitionStoreException extends Exception
+interface org.springframework.core.io.Resource
+interface org.osgi.service.http.HttpService
+interface org.springframework.context.support.AbstractApplicationContext
+interface org.springframework.context.event.ContextRefreshedEvent
+interface org.springframework.context.ApplicationEvent
+interface org.springframework.beans.PropertyEditorRegistry
+interface org.springframework.beans.factory.support.BeanDefinitionRegistry
+interface org.apache.cxf.javascript.NameManager
+interface org.apache.aries.blueprint.mutable.MutableRefMetadata
+interface org.springframework.beans.factory.config.BeanFactoryPostProcessor
+interface org.apache.cxf.javascript.BasicNameManager
+interface org.springframework.web.context.support.WebApplicationContextUtils
+interface org.springframework.web.context.support.XmlWebApplicationContext
+interface org.apache.aries.blueprint.mutable.MutablePassThroughMetadata
+class org.springframework.context.support.ClassPathXmlApplicationContext
+interface org.apache.aries.blueprint.mutable.MutableCollectionMetadata
+interface org.apache.aries.blueprint.mutable.MutableValueMetadata
+interface org.springframework.beans.factory.xml.XmlBeanDefinitionReader
+interface org.springframework.core.io.ResourceLoader
+class org.springframework.context.ApplicationContextException extends Exception
+interface org.springframework.beans.factory.xml.NamespaceHandlerResolver
+interface org.springframework.context.ConfigurableApplicationContext
+interface org.springframework.context.support.GenericApplicationContext
+class org.springframework.core.io.ClassPathResource

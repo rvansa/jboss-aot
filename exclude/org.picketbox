@@ -1,7 +1,0 @@
-# Exceptions in initializer of org.jboss.security.xacml.core.JBossPDP
-exclude org.jboss.security.plugins.JBossPolicyRegistration.registerPolicyConfig\(.*
-exclude org.jboss.security.plugins.JBossPolicyRegistration.registerPolicyConfigFile\(.*
-exclude org.jboss.security.authorization.modules.ejb.EJBXACMLPolicyModuleDelegate.process\(.*
-exclude org.jboss.security.authorization.modules.ejb.EJBXACMLPolicyModuleDelegate.authorize\(.*
-exclude org.jboss.security.authorization.modules.web.WebXACMLPolicyModuleDelegate.process\(.*
-exclude org.jboss.security.authorization.util.JBossXACMLUtil.getPDP\(.*

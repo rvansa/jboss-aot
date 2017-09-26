@@ -1,0 +1,7 @@
+# ClassCastException: jdk.internal.vm.ci/jdk.vm.ci.hotspot.HotSpotUnresolvedField cannot be cast to jdk.internal.vm.ci/jdk.vm.ci.meta.ResolvedJavaField
+exclude org.h2.fulltext.FullTextLucene.search(Ljava/sql/Connection;Ljava/lang/String;IIZ)Ljava/sql/ResultSet;
+exclude org.h2.fulltext.FullTextLucene.search(Ljava/sql/Connection;Ljava/lang/String;II)Ljava/sql/ResultSet;
+exclude org.h2.fulltext.FullTextLucene.searchData(Ljava/sql/Connection;Ljava/lang/String;II)Ljava/sql/ResultSet;
+exclude org.h2.fulltext.FullTextLucene.getIndexAccess(Ljava/sql/Connection;)Lorg/h2/fulltext/FullTextLucene$IndexAccess;
+exclude org.h2.fulltext.FullTextLucene.init(Ljava/sql/Connection;)V
+exclude org.h2.fulltext.FullTextLucene$FullTextTrigger.init(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZI)V

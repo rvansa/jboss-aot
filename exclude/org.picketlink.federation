@@ -1,7 +1,0 @@
-# Class load failures probably related to limited deps
-exclude org.picketlink.identity.federation.web.servlets.IDPLoginServlet.init(Ljavax/servlet/ServletConfig;)V
-exclude org.picketlink.identity.federation.web.servlets.IDPServlet.<init>()V
-exclude org.picketlink.identity.federation.web.handlers.DefaultLoginHandler.authenticate(Ljava/lang/String;Ljava/lang/Object;)Z
-exclude org.picketlink.identity.federation.web.handlers.DefaultLoginHandler.<clinit>()V
-exclude org.picketlink.identity.federation.web.roles.DefaultRoleGenerator.generateRoles(Ljava/security/Principal;)Ljava/util/List;
-exclude org.picketlink.identity.federation.web.roles.DefaultRoleGenerator.<clinit>()V

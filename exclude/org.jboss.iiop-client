@@ -1,3 +1,0 @@
-# Accessing sun.reflect API
-exclude org.jboss.ejb.iiop.HandleImplIIOP.narrow(Lorg/omg/CORBA/Object;)Ljavax/ejb/EJBObject;
-exclude org.jboss.ejb.iiop.HomeHandleImplIIOP.narrow(Lorg/omg/CORBA/Object;)Ljavax/ejb/EJBHome;

@@ -1,6 +1,0 @@
-interface org.apache.tika.parser.Parser
-interface org.apache.tika.metadata.Metadata
-interface org.apache.tika.parser.ParseContext
-interface org.apache.tika.parser.AutoDetectParser
-interface org.apache.tika.sax.WriteOutContentHandler
-class org.apache.tika.io.IOUtils

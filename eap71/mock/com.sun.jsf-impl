@@ -1,0 +1,2 @@
+class groovy.lang.GroovyClassLoader extends java.lang.ClassLoader
+interface groovy.util.GroovyScriptEngine

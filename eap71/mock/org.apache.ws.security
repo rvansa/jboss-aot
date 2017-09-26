@@ -1,0 +1,8 @@
+class net.sf.ehcache.Cache
+class org.apache.directory.shared.kerberos.exceptions.KerberosException extends Exception
+interface org.apache.directory.shared.kerberos.components.EncTicketPart
+interface net.sf.ehcache.Ehcache
+interface net.sf.ehcache.CacheManager
+interface net.sf.ehcache.config.CacheConfiguration
+class net.sf.ehcache.CacheException extends Exception
+interface net.sf.ehcache.config.Configuration

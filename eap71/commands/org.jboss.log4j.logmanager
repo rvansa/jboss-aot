@@ -1,0 +1,2 @@
+# UnsatisfiedLinkError: no NTEventLogAppender in java.library.path
+exclude org.apache.log4j.nt.NTEventLogAppender.*

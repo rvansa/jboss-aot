@@ -1,0 +1,2 @@
+abstract class org.apache.lucene.sandbox.queries.FuzzyLikeThisQuery extends org.apache.lucene.search.Query
+abstract class org.apache.lucene.sandbox.queries.DuplicateFilter extends org.apache.lucene.search.Filter

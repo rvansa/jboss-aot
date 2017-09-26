@@ -1,0 +1,4 @@
+# Missing native libraries
+exclude org.apache.lucene.store.NativeUnixDirectory.*
+exclude org.apache.lucene.store.NativePosixUtil.*
+exclude org.apache.lucene.store.WindowsDirectory.*

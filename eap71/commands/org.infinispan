@@ -1,0 +1,5 @@
+# Mysteriously missing apache log Level
+exclude org.infinispan.remoting.transport.jgroups.CommandAwareRpcDispatcher.<init>\(.*
+exclude org.infinispan.remoting.transport.jgroups.JGroupsTransport.buildChannel\(.*
+exclude org.infinispan.io.FileChunkMapper.<clinit>.*
+

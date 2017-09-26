@@ -1,0 +1,2 @@
+exclude org.apache.cxf.ws.security.trust.STSLoginModule.configureSTSClient(Lorg/apache/cxf/message/Message;)Lorg/apache/cxf/ws/security/trust/STSClient;
+exclude org.apache.cxf.ws.security.trust.STSLoginModule.configureTokenStore()Lorg/apache/cxf/ws/security/tokenstore/TokenStore;

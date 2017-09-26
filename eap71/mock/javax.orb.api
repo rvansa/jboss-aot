@@ -1,0 +1,5 @@
+class com.sun.corba.se.spi.activation._ServerImplBase
+class com.sun.corba.se.spi.activation._RepositoryImplBase
+class com.sun.corba.se.spi.activation._ServerManagerImplBase
+interface com.sun.jndi.cosnaming.CNCtx
+interface org.omg.CORBA.StringSeqHelper

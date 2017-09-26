@@ -1,0 +1,5 @@
+class org.jboss.seam.jms.TopicConnection
+class org.jboss.seam.deployment.AbstractScanner
+class org.jboss.seam.deployment.URLScanner
+interface org.jboss.seam.deployment.DeploymentStrategy
+interface org.jboss.seam.log.LogProvider

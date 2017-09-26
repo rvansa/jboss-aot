@@ -1,0 +1,4 @@
++javax.mail.api
++javax.jms.api
++javax.activation.api
++javax.transaction.api

@@ -1,0 +1,2 @@
+# Missing com.sun.jna library
+exclude org.postgresql.sspi.NTDSAPI.<clinit>()V

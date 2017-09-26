@@ -1,0 +1,48 @@
+# I don't want to bother with Instruction ctors
+exclude org.apache.xalan.xsltc.compiler.util.OutlineableChunkStart.*
+exclude org.apache.xalan.xsltc.compiler.util.OutlineableChunkEnd.*
+# ClassCastException: jdk.internal.vm.ci/jdk.vm.ci.hotspot.HotSpotUnresolvedField cannot be cast to jdk.internal.vm.ci/jdk.vm.ci.meta.ResolvedJavaField
+exclude org.apache.xalan.xsltc.compiler.util.RealType.DIV()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.RealType.SUB()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.RealType.DUP()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.RealType.POP()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.RealType.toJCType()Lorg/apache/bcel/generic/Type;
+exclude org.apache.xalan.xsltc.compiler.util.RealType.NEG()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.RealType.CMP(Z)Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.RealType.ADD()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.RealType.MUL()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.RealType.REM()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.Sort.*
+exclude org.apache.xalan.xsltc.compiler.util.VoidType.POP()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.StringType.toJCType()Lorg/apache/bcel/generic/Type;
+exclude org.apache.xalan.xsltc.compiler.util.NodeType.toJCType()Lorg/apache/bcel/generic/Type;
+exclude org.apache.xalan.xsltc.compiler.util.BooleanType.toJCType()Lorg/apache/bcel/generic/Type;
+exclude org.apache.xalan.xsltc.compiler.util.IntType.SUB()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.IntType.DIV()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.IntType.toJCType()Lorg/apache/bcel/generic/Type;
+exclude org.apache.xalan.xsltc.compiler.util.IntType.NEG()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.IntType.ADD()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.IntType.MUL()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.IntType.REM()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.AttributeSetMethodGenerator.<init>(Ljava/lang/String;Lorg/apache/bcel/generic/ClassGen;)V
+exclude org.apache.xalan.xsltc.compiler.util.AttributeSetMethodGenerator.loadHandler()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.AttributeSetMethodGenerator.storeHandler()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.AttributeSetMethodGenerator.loadIterator()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.AttributeSetMethodGenerator.storeIterator()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.AttributeSetMethodGenerator.<clinit>()V
+# Could not initialize class org.apache.xalan.xsltc.compiler.XPathParser 
+exclude org.apache.xalan.xsltc.compiler.XPathParser.*
+exclude org.apache.xalan.xsltc.compiler.Parser.*
+# Unspecified ClassCastException?
+exclude org.apache.xalan.xsltc.compiler.util.ReferenceType.toJCType()Lorg/apache/bcel/generic/Type;
+exclude org.apache.xalan.xsltc.compiler.util.MethodGenerator.loadLocal(ILorg/apache/bcel/generic/Type;)Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.MethodGenerator.storeLocal(ILorg/apache/bcel/generic/Type;)Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.Whitespace.compileStripSpace([Lorg/apache/bcel/generic/BranchHandle;ILorg/apache/bcel/generic/InstructionList;)V
+exclude org.apache.xalan.xsltc.compiler.Whitespace.compilePreserveSpace([Lorg/apache/bcel/generic/BranchHandle;ILorg/apache/bcel/generic/InstructionList;)V
+exclude org.apache.xalan.xsltc.compiler.CUP$XPathParser$actions.CUP$XPathParser$do_action(ILjava_cup/runtime/lr_parser;Ljava/util/Stack;I)Ljava_cup/runtime/Symbol;
+exclude org.apache.xalan.xsltc.compiler.util.Type.DUP()Lorg/apache/bcel/generic/Instruction;
+exclude org.apache.xalan.xsltc.compiler.util.Type.POP()Lorg/apache/bcel/generic/Instruction;
+# NoSuchMethodError: org.apache.bcel.generic.Type.getType
+exclude org.apache.xalan.xsltc.compiler.AttributeSet.translate(Lorg/apache/xalan/xsltc/compiler/util/ClassGenerator;Lorg/apache/xalan/xsltc/compiler/util/MethodGenerator;)V
+# NoSuchMethodError: org.apache.xalan.xsltc.compiler.XPathParser.unpackFromStrings
+exclude org.apache.xalan.xsltc.compiler.XSLTC.reset()V

@@ -1,0 +1,2 @@
+interface com.mchange.v2.c3p0.ComboPooledDataSource
+interface com.mchange.v2.c3p0.DataSources

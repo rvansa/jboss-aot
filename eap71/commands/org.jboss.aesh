@@ -1,0 +1,2 @@
+# UnsatisfiedLinkError: org.fusesource.jansi.internal.Kernel32.GetStdHandle(I)J
+exclude org.jboss.aesh.terminal.WindowsTerminal.init(Lorg/jboss/aesh/console/settings/Settings;)V

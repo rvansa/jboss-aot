@@ -1,0 +1,30 @@
+interface com.sun.jna.win32.StdCallLibrary
+interface org.osgi.service.jdbc.DataSourceFactory
+interface org.osgi.framework.BundleActivator
+interface com.sun.jna.WString
+interface com.sun.jna.ptr.IntByReference
+class com.sun.jna.LastErrorException extends Exception
+interface org.osgi.framework.BundleContext
+class com.sun.jna.platform.win32.Win32Exception extends Exception
+class com.sun.jna.Native
+interface org.postgresql.translation.messages_it$1
+interface org.postgresql.translation.messages_cs$1
+interface org.postgresql.translation.messages_zh_TW$1
+interface org.postgresql.translation.messages_sr$1
+interface org.postgresql.translation.messages_zh_CN$1
+interface org.postgresql.translation.messages_ja$1
+interface org.postgresql.translation.messages_fr$1
+interface org.osgi.framework.ServiceRegistration
+interface org.postgresql.translation.messages_bg$1
+interface org.postgresql.translation.messages_nl$1
+interface org.postgresql.translation.messages_tr$1
+interface org.postgresql.translation.messages_pt_BR$1
+interface org.postgresql.translation.messages_es$1
+interface org.postgresql.translation.messages_pl$1
+interface org.postgresql.translation.messages_de$1
+interface com.sun.jna.Platform
+class waffle.windows.auth.impl.WindowsCredentialsHandleImpl
+interface com.sun.jna.platform.win32.Sspi$SecBufferDesc
+class waffle.windows.auth.impl.WindowsSecurityContextImpl
+interface org.postgresql.translation.messages_ru$1
+interface waffle.windows.auth.IWindowsCredentialsHandle

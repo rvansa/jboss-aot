@@ -1,0 +1,3 @@
+interface freemarker.cache.TemplateLoader
+interface freemarker.template.Template
+interface freemarker.template.Configuration

@@ -1,0 +1,4 @@
+# javax.batch.operations.BatchRuntimeException: JBERET000640: A BatchEnvironment implementation could not be found. Please ensure the SPI has been implemented and is on the class path
+exclude org.jberet.spi.JobOperatorContext$DefaultHolder.<clinit>()V
+exclude org.jberet.spi.JobOperatorContext.getJobOperatorContext()Lorg/jberet/spi/JobOperatorContext;
+exclude org.jberet.operations.DelegatingJobOperator.*

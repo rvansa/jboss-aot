@@ -1,0 +1,7 @@
+class org.eclipse.persistence.platform.server.jboss.JBossPlatform
+class org.eclipse.persistence.transaction.jboss.JBossTransactionController
+class org.eclipse.persistence.logging.AbstractSessionLog
+class org.eclipse.persistence.internal.jpa.deployment.ArchiveFactoryImpl
+interface org.eclipse.persistence.jpa.Archive
+interface org.eclipse.persistence.sessions.DatabaseSession
+interface org.eclipse.persistence.logging.SessionLogEntry

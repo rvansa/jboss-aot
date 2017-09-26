@@ -1,0 +1,14 @@
+interface com.vividsolutions.jts.geom.CoordinateSequenceFilter
+interface org.osgi.framework.BundleActivator
+interface org.osgi.service.jdbc.DataSourceFactory
+interface com.vividsolutions.jts.geom.CoordinateSequence
+interface org.osgi.framework.BundleContext
+interface org.apache.lucene.document.Fieldable
+class com.vividsolutions.jts.io.ParseException extends Exception
+interface com.vividsolutions.jts.geom.Geometry
+interface com.vividsolutions.jts.io.WKTReader
+interface com.vividsolutions.jts.geom.GeometryFactory
+interface com.vividsolutions.jts.io.WKBReader
+interface org.apache.lucene.queryParser.QueryParser
+interface com.vividsolutions.jts.io.WKTWriter
+interface com.vividsolutions.jts.geom.PrecisionModel

@@ -1,0 +1,1 @@
+exclude org.apache.lucene.store.NativePosixUtil.advise(Ljava/io/FileDescriptor;JJI)V

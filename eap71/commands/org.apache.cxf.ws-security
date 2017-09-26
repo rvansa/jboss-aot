@@ -1,0 +1,3 @@
+# NPE during initialization
+exclude org.apache.cxf.ws.security.wss4j.SamlTokenInterceptor.addSamlToken(Lorg/apache/wss4j/policy/model/SamlToken;Lorg/apache/cxf/binding/soap/SoapMessage;)Lorg/apache/wss4j/common/saml/SamlAssertionWrapper;
+exclude org.apache.cxf.ws.security.wss4j.policyhandlers.AbstractBindingBuilder.addSamlToken(Lorg/apache/wss4j/policy/model/SamlToken;)Lorg/apache/wss4j/common/saml/SamlAssertionWrapper;

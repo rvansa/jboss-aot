@@ -1,0 +1,6 @@
+exclude org.apache.neethi.builders.converters.DOMToOMConverter.convert(Lorg/w3c/dom/Element;)Lorg/apache/axiom/om/OMElement;
+exclude org.apache.neethi.builders.converters.DOMToOMConverter.convert(Ljava/lang/Object;)Ljava/lang/Object;
+exclude org.apache.neethi.builders.converters.OMToDOMConverter.convert(Lorg/apache/axiom/om/OMElement;)Lorg/w3c/dom/Element;
+exclude org.apache.neethi.builders.converters.OMToDOMConverter.convert(Ljava/lang/Object;)Ljava/lang/Object;
+exclude org.apache.neethi.builders.converters.StaxToOMConverter.convert(Ljavax/xml/stream/XMLStreamReader;)Lorg/apache/axiom/om/OMElement;
+exclude org.apache.neethi.builders.converters.StaxToOMConverter.convert(Ljava/lang/Object;)Ljava/lang/Object;

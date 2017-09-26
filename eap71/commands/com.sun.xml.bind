@@ -1,0 +1,4 @@
+# ClassCastException: jdk.internal.vm.ci/jdk.vm.ci.hotspot.HotSpotUnresolvedField cannot be cast to jdk.internal.vm.ci/jdk.vm.ci.meta.ResolvedJavaField
+exclude com.sun.tools.jxc.ApBasedTask.compile()V
+exclude com.sun.tools.jxc.ApBasedTask$InternalApAdapter.execute()Z
+exclude com.sun.tools.jxc.ApBasedTask$ApAdapter.logAndAddFilesToCompile(Lorg/apache/tools/ant/types/Commandline;)V

@@ -1,0 +1,16 @@
+class org.apache.catalina.authenticator.AuthenticatorBase
+class org.apache.catalina.valves.ValveBase
+class org.apache.catalina.authenticator.FormAuthenticator
+class org.apache.catalina.authenticator.SSLAuthenticator
+class org.apache.catalina.LifecycleException extends Exception
+interface org.apache.catalina.User
+interface org.apache.catalina.Lifecycle
+interface org.apache.catalina.Context
+interface org.apache.catalina.connector.Request
+interface org.apache.catalina.connector.Response
+interface org.apache.catalina.deploy.LoginConfig
+interface org.apache.catalina.Session
+interface org.apache.catalina.Valve
+interface org.apache.catalina.LifecycleListener
+interface org.apache.catalina.realm.GenericPrincipal
+interface org.apache.catalina.util.LifecycleSupport

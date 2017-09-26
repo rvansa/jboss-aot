@@ -1,0 +1,8 @@
+class org.apache.tools.ant.Task
+class org.jacorb.orb.ParsedIOR
+abstract class org.jacorb.orb.CDROutputStream extends org.omg.CORBA.portable.OutputStream
+class org.apache.tools.ant.BuildException extends Exception
+abstract class org.jacorb.orb.ORB extends org.omg.CORBA.ORB
+interface org.apache.tools.ant.Project
+class org.jacorb.orb.portableInterceptor.ServerRequestInfoImpl
+class org.jacorb.orb.portableInterceptor.ORBInitInfoImpl

@@ -1,0 +1,5 @@
+class org.apache.logging.log4j.Level { public static Level TRACE = new Level(); public static Level DEBUG = new Level(); public static Level INFO = new Level(); public static Level WARN = new Level(); public static Level ERROR = new Level(); public static Level FATAL = new Level(); }
+interface org.apache.logging.log4j.Logger
+class org.apache.logging.log4j.LogManager { public static org.apache.logging.log4j.Logger getFormatterLogger(Class klass) { return null; } }
+interface org.apache.logging.log4j.core.Logger
+class org.apache.logging.log4j.simple.SimpleLogger

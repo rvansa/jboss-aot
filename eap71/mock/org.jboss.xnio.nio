@@ -1,0 +1,3 @@
+interface org.osgi.framework.BundleActivator
+interface org.osgi.framework.BundleContext
+interface org.osgi.framework.ServiceRegistration

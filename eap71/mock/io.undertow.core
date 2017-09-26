@@ -1,0 +1,4 @@
+interface org.eclipse.jetty.alpn.ALPN$ServerProvider
+interface org.eclipse.jetty.alpn.ALPN$ClientProvider
+interface org.eclipse.jetty.alpn.ALPN$Provider
+interface org.eclipse.jetty.alpn.ALPN

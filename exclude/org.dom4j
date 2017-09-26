@@ -1,7 +1,0 @@
-# mysteriously missing org/dom4j/DocumentException
-exclude org.dom4j.xpath.DefaultXPath.*
-exclude org.dom4j.xpath.XPathPattern.*
-exclude org.dom4j.DocumentFactory.*
-
-# missing classses com.sun.msv.*
-exclude org.dom4j.datatype.SchemaParser.*

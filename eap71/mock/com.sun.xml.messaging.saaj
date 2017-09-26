@@ -1,0 +1,3 @@
+interface org.jvnet.mimepull.MIMEPart
+interface org.jvnet.mimepull.MIMEMessage
+interface org.jvnet.mimepull.MIMEConfig

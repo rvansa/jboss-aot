@@ -1,0 +1,6 @@
+# ClassCastException: jdk.internal.vm.ci/jdk.vm.ci.hotspot.HotSpotUnresolvedField cannot be cast to jdk.internal.vm.ci/jdk.vm.ci.meta.ResolvedJavaField
+exclude org.jboss.logging.Log4j2Logger.infoOrHigher(Lorg/jboss/logging/Logger$Level;)Lorg/apache/logging/log4j/Level;
+exclude org.jboss.logging.Log4j2Logger.translate(Lorg/jboss/logging/Logger$Level;)Lorg/apache/logging/log4j/Level;
+exclude org.jboss.logging.Log4j2Logger.doLogf(Lorg/jboss/logging/Logger$Level;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V
+exclude org.jboss.logging.Log4j2Logger.doLog(Lorg/jboss/logging/Logger$Level;Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Throwable;)V
+exclude org.jboss.logging.Log4j2Logger.isEnabled(Lorg/jboss/logging/Logger$Level;)Z

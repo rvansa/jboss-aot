@@ -1,0 +1,3 @@
+exclude org.apache.velocity.texen.ant.TexenTask.setContextProperties(Ljava/lang/String;)V
+exclude org.apache.velocity.texen.ant.TexenTask.setTemplatePath(Ljava/lang/String;)V
+exclude org.apache.velocity.anakia.AnakiaTask.execute()V

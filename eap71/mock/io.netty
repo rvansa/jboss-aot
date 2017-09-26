@@ -1,0 +1,46 @@
+interface org.eclipse.jetty.npn.NextProtoNego$ServerProvider
+interface org.eclipse.jetty.alpn.ALPN$ServerProvider
+interface org.eclipse.jetty.alpn.ALPN$ClientProvider
+interface org.eclipse.jetty.npn.NextProtoNego$ClientProvider
+abstract class com.barchart.udt.nio.ServerSocketChannelUDT extends java.nio.channels.ServerSocketChannel { public ServerSocketChannelUDT(java.nio.channels.spi.SelectorProvider provider) { super(provider); } }
+interface com.barchart.udt.nio.ChannelUDT
+abstract class com.barchart.udt.nio.NioServerSocketUDT extends java.net.ServerSocket { public NioServerSocketUDT() throws java.io.IOException {} }
+abstract class com.barchart.udt.nio.SocketChannelUDT extends java.nio.channels.SocketChannel { public SocketChannelUDT(java.nio.channels.spi.SelectorProvider provider) { super(provider); } }
+interface com.fasterxml.aalto.AsyncXMLInputFactory
+interface org.eclipse.jetty.npn.NextProtoNego$Provider
+abstract class com.barchart.udt.nio.RendezvousChannelUDT extends com.barchart.udt.nio.SocketChannelUDT { public RendezvousChannelUDT(java.nio.channels.spi.SelectorProvider provider) { super(provider); } }
+interface com.google.protobuf.nano.MessageNano
+interface org.eclipse.jetty.alpn.ALPN$Provider
+interface com.barchart.udt.TypeUDT
+interface com.google.protobuf.ExtensionRegistryLite
+interface com.google.protobuf.MessageLite
+interface com.google.protobuf.ExtensionRegistry
+interface org.apache.logging.log4j.Logger
+class net.jpountz.lz4.LZ4Exception extends Exception
+interface net.jpountz.lz4.LZ4Factory
+interface com.jcraft.jzlib.Inflater
+interface com.jcraft.jzlib.Deflater
+interface com.jcraft.jzlib.JZlib$WrapperType
+interface com.google.protobuf.MessageLiteOrBuilder
+abstract class com.barchart.udt.nio.SelectorProviderUDT extends java.nio.channels.spi.SelectorProvider
+interface com.barchart.udt.nio.KindUDT
+interface com.barchart.udt.SocketUDT
+interface gnu.io.CommPortIdentifier
+interface org.eclipse.jetty.alpn.ALPN
+interface com.jcraft.jzlib.JZlib
+interface net.jpountz.lz4.LZ4Compressor
+interface gnu.io.SerialPort
+interface org.apache.logging.log4j.LogManager
+interface org.eclipse.jetty.npn.NextProtoNego
+interface com.google.protobuf.MessageLite$Builder
+enum com.barchart.udt.StatusUDT
+class com.fasterxml.aalto.stax.InputFactoryImpl
+interface com.ning.compress.lzf.util.ChunkEncoderFactory
+interface com.ning.compress.BufferRecycler
+interface com.ning.compress.lzf.util.ChunkDecoderFactory
+interface net.jpountz.xxhash.XXHashFactory
+interface net.jpountz.lz4.LZ4FastDecompressor
+interface lzma.sdk.lzma.Encoder
+interface com.ning.compress.lzf.LZFEncoder
+interface com.ning.compress.lzf.ChunkDecoder
+interface com.fasterxml.aalto.AsyncByteArrayFeeder

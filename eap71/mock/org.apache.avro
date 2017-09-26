@@ -1,0 +1,8 @@
+interface com.thoughtworks.paranamer.Paranamer
+class com.thoughtworks.paranamer.CachingParanamer
+abstract class org.apache.commons.compress.compressors.xz.XZCompressorOutputStream extends java.io.OutputStream
+abstract class org.apache.commons.compress.compressors.xz.XZCompressorInputStream extends java.io.InputStream
+interface com.thoughtworks.paranamer.Paranamer
+interface org.xerial.snappy.Snappy
+abstract class org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream extends java.io.OutputStream
+abstract class org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream extends java.io.InputStream

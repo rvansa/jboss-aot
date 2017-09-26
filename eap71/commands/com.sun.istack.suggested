@@ -1,0 +1,7 @@
+exclude com.sun.istack.tools.ProtectedTask$AntElement.configure(Ljava/lang/Object;)V
+exclude com.sun.istack.tools.ProtectedTask$1.run()Ljava/lang/Object;
+exclude com.sun.istack.tools.ProtectedTask$1.run()Ljava/lang/ClassLoader;
+exclude com.sun.istack.tools.ProtectedTask.access$000(Lcom/sun/istack/tools/ProtectedTask;Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;
+exclude com.sun.istack.tools.ProtectedTask.getParentClassLoader(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;
+exclude com.sun.istack.tools.ProtectedTask.getPCL(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;
+exclude com.sun.istack.tools.ProtectedTask.execute()V

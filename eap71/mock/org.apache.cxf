@@ -1,0 +1,106 @@
+abstract class com.sun.msv.reader.xmlschema.XMLSchemaReader
+class com.sun.msv.reader.xmlschema.XMLSchemaReader$StateFactory
+class com.sun.msv.reader.xmlschema.SchemaState
+interface com.sun.msv.reader.GrammarReaderController2
+interface org.springframework.context.ApplicationContextAware
+interface org.apache.aries.blueprint.NamespaceHandler
+abstract class org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser
+abstract class org.springframework.beans.factory.xml.AbstractBeanDefinitionParser
+class org.springframework.beans.factory.wiring.BeanConfigurerSupport
+interface org.springframework.beans.factory.wiring.BeanWiringInfoResolver
+interface org.osgi.service.blueprint.container.Converter
+interface net.sf.cglib.proxy.MethodInterceptor
+class org.springframework.beans.factory.xml.DefaultDocumentLoader
+interface org.springframework.context.ApplicationListener
+class org.springframework.beans.factory.xml.NamespaceHandlerSupport
+interface org.springframework.beans.factory.config.DestructionAwareBeanPostProcessor
+interface org.springframework.core.Ordered
+class org.springframework.beans.factory.xml.XmlBeanDefinitionReader
+interface org.springframework.beans.factory.config.BeanFactoryPostProcessor
+interface org.springframework.beans.factory.config.BeanPostProcessor
+class org.springframework.beans.factory.xml.DelegatingEntityResolver
+class org.springframework.context.support.ClassPathXmlApplicationContext
+interface org.osgi.service.cm.ManagedServiceFactory
+interface org.osgi.framework.SynchronousBundleListener
+interface org.osgi.framework.BundleActivator
+interface org.osgi.service.blueprint.reflect.Metadata
+interface org.osgi.service.blueprint.reflect.ValueMetadata
+interface org.osgi.service.blueprint.reflect.ComponentMetadata
+interface org.osgi.service.blueprint.reflect.RefMetadata
+interface org.apache.aries.blueprint.PassThroughMetadata
+interface org.osgi.service.blueprint.reflect.Target
+interface org.apache.aries.blueprint.ParserContext
+interface org.springframework.context.ApplicationContext
+interface org.springframework.context.ApplicationEvent
+class org.springframework.beans.BeansException extends Exception
+interface org.osgi.framework.BundleContext
+interface org.osgi.service.blueprint.container.BlueprintContainer
+class org.osgi.service.blueprint.container.NoSuchComponentException extends Exception
+interface org.springframework.beans.factory.wiring.BeanWiringInfo
+interface org.osgi.framework.Bundle
+interface org.springframework.core.io.ResourceLoader
+interface org.springframework.core.type.classreading.MetadataReaderFactory
+interface org.springframework.core.io.support.ResourcePatternResolver
+interface org.osgi.framework.BundleListener
+interface org.osgi.framework.ServiceRegistration
+interface org.springframework.beans.factory.xml.BeanDefinitionParser
+class org.springframework.beans.factory.BeanCreationException extends Exception
+interface org.springframework.core.io.Resource
+interface org.springframework.beans.factory.config.BeanDefinition
+interface org.springframework.beans.factory.xml.ParserContext
+interface org.springframework.beans.factory.support.BeanDefinitionBuilder
+interface org.springframework.beans.factory.support.BeanDefinitionRegistry
+class org.springframework.context.ApplicationContextException extends Exception
+interface org.springframework.beans.factory.xml.NamespaceHandlerResolver
+interface org.springframework.beans.factory.support.DefaultListableBeanFactory
+interface net.sf.cglib.proxy.MethodProxy
+interface org.springframework.beans.factory.support.AbstractBeanDefinition
+interface org.apache.aries.blueprint.mutable.MutableBeanMetadata
+interface net.sf.cglib.proxy.Callback
+interface com.sun.msv.reader.State
+interface com.sun.msv.reader.GrammarReaderController
+interface com.sun.msv.grammar.xmlschema.XMLSchemaSchema
+class org.osgi.framework.InvalidSyntaxException extends Exception
+interface org.osgi.framework.ServiceReference
+interface org.osgi.framework.Version
+class org.springframework.beans.factory.NoSuchBeanDefinitionException extends Exception
+class org.springframework.beans.factory.BeanDefinitionStoreException extends Exception
+interface org.osgi.service.cm.ConfigurationAdmin
+class org.osgi.service.cm.ConfigurationException extends Exception
+interface org.osgi.service.cm.Configuration
+interface org.osgi.util.tracker.ServiceTracker
+interface org.springframework.beans.factory.BeanFactory
+interface org.springframework.beans.factory.xml.DocumentLoader
+interface org.springframework.core.io.support.EncodedResource
+interface org.springframework.context.ConfigurableApplicationContext
+interface org.osgi.service.blueprint.container.ReifiedType
+interface org.springframework.beans.factory.config.ConfigurableListableBeanFactory
+interface org.springframework.beans.factory.config.ConstructorArgumentValues
+interface org.osgi.framework.BundleEvent
+abstract class org.springframework.context.support.AbstractApplicationContext
+class org.apache.aries.blueprint.services.ExtendedBlueprintContainer
+class org.springframework.util.ClassUtils
+class com.sun.msv.reader.xmlschema.MultiSchemaReader
+class com.sun.msv.grammar.ExpressionPool
+class com.sun.msv.reader.xmlschema.DOMLSInputImpl
+class net.sf.cglib.proxy.Enhancer
+class org.apache.aries.blueprint.mutable.MutablePassThroughMetadata
+class org.apache.aries.blueprint.mutable.MutableRefMetadata
+class org.apache.aries.blueprint.mutable.MutableValueMetadata
+class org.osgi.service.blueprint.reflect.BeanMetadata
+class org.osgi.service.blueprint.reflect.CollectionMetadata
+class org.osgi.service.blueprint.reflect.MapMetadata
+class org.springframework.aop.framework.Advised
+class org.springframework.aop.support.AopUtils
+class org.springframework.beans.factory.FactoryBean
+class org.springframework.beans.factory.xml.BeansDtdResolver
+class org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver
+class org.springframework.context.support.AbstractApplicationContext
+class org.springframework.core.io.ClassPathResource
+class org.springframework.core.io.support.PathMatchingResourcePatternResolver
+class org.springframework.core.type.classreading.CachingMetadataReaderFactory
+class org.springframework.osgi.util.BundleDelegatingClassLoader
+class org.apache.aries.blueprint.ExtendedBeanMetadata
+class org.osgi.framework.FrameworkUtil
+class org.springframework.beans.factory.xml.PluggableSchemaResolver
+class org.springframework.core.io.UrlResource
