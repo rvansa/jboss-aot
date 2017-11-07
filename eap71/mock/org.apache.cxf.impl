@@ -62,22 +62,22 @@ interface org.springframework.beans.factory.support.AbstractBeanDefinition
 class org.springframework.beans.factory.BeanDefinitionStoreException extends Exception
 interface org.springframework.core.io.Resource
 interface org.osgi.service.http.HttpService
-interface org.springframework.context.support.AbstractApplicationContext
+abstract class org.springframework.context.support.AbstractApplicationContext
 interface org.springframework.context.event.ContextRefreshedEvent
 interface org.springframework.context.ApplicationEvent
 interface org.springframework.beans.PropertyEditorRegistry
 interface org.springframework.beans.factory.support.BeanDefinitionRegistry
 interface org.apache.cxf.javascript.NameManager
-interface org.apache.aries.blueprint.mutable.MutableRefMetadata
+class org.apache.aries.blueprint.mutable.MutableRefMetadata
 interface org.springframework.beans.factory.config.BeanFactoryPostProcessor
 interface org.apache.cxf.javascript.BasicNameManager
 interface org.springframework.web.context.support.WebApplicationContextUtils
 interface org.springframework.web.context.support.XmlWebApplicationContext
-interface org.apache.aries.blueprint.mutable.MutablePassThroughMetadata
+class org.apache.aries.blueprint.mutable.MutablePassThroughMetadata
 class org.springframework.context.support.ClassPathXmlApplicationContext
 interface org.apache.aries.blueprint.mutable.MutableCollectionMetadata
-interface org.apache.aries.blueprint.mutable.MutableValueMetadata
-interface org.springframework.beans.factory.xml.XmlBeanDefinitionReader
+class org.apache.aries.blueprint.mutable.MutableValueMetadata
+class org.springframework.beans.factory.xml.XmlBeanDefinitionReader
 interface org.springframework.core.io.ResourceLoader
 class org.springframework.context.ApplicationContextException extends Exception
 interface org.springframework.beans.factory.xml.NamespaceHandlerResolver

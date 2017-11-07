@@ -1,6 +1,6 @@
 class org.apache.logging.log4j.LoggingException extends Exception
 interface org.apache.logging.log4j.message.Message
-interface org.apache.logging.log4j.Level
+class org.apache.logging.log4j.Level { public static Level TRACE = new Level(); public static Level DEBUG = new Level(); public static Level INFO = new Level(); public static Level WARN = new Level(); public static Level ERROR = new Level(); public static Level FATAL = new Level(); }
 interface org.apache.logging.log4j.LogManager
 interface org.apache.logging.log4j.ThreadContext
 class org.apache.logging.log4j.spi.AbstractLogger

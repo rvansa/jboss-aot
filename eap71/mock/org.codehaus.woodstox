@@ -12,6 +12,6 @@ interface org.osgi.framework.BundleContext
 interface com.sun.msv.reader.trex.ng.RELAXNGReader
 interface com.sun.msv.verifier.regexp.xmlschema.XSREDocDecl
 interface com.sun.msv.verifier.regexp.REDocumentDeclaration
-interface com.sun.msv.reader.xmlschema.XMLSchemaReader
+abstract class com.sun.msv.reader.xmlschema.XMLSchemaReader
 interface com.sun.msv.verifier.Acceptor
 interface com.sun.msv.util.StartTagInfo

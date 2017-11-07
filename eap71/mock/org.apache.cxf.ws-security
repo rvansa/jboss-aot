@@ -14,6 +14,6 @@ class org.springframework.beans.factory.xml.NamespaceHandlerResolver
 class org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver extends org.springframework.beans.factory.xml.NamespaceHandlerResolver
 class org.springframework.beans.factory.support.BeanDefinitionRegistry
 class org.springframework.beans.factory.support.DefaultListableBeanFactory extends org.springframework.beans.factory.support.BeanDefinitionRegistry
-interface org.springframework.beans.factory.xml.XmlBeanDefinitionReader
+class org.springframework.beans.factory.xml.XmlBeanDefinitionReader
 interface org.springframework.core.io.ResourceLoader
 interface org.springframework.core.io.Resource

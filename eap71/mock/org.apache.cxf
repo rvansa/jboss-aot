@@ -52,7 +52,7 @@ interface org.springframework.beans.factory.support.BeanDefinitionBuilder
 interface org.springframework.beans.factory.support.BeanDefinitionRegistry
 class org.springframework.context.ApplicationContextException extends Exception
 interface org.springframework.beans.factory.xml.NamespaceHandlerResolver
-interface org.springframework.beans.factory.support.DefaultListableBeanFactory
+class org.springframework.beans.factory.support.DefaultListableBeanFactory
 interface net.sf.cglib.proxy.MethodProxy
 interface org.springframework.beans.factory.support.AbstractBeanDefinition
 interface org.apache.aries.blueprint.mutable.MutableBeanMetadata
@@ -68,7 +68,7 @@ class org.springframework.beans.factory.BeanDefinitionStoreException extends Exc
 interface org.osgi.service.cm.ConfigurationAdmin
 class org.osgi.service.cm.ConfigurationException extends Exception
 interface org.osgi.service.cm.Configuration
-interface org.osgi.util.tracker.ServiceTracker
+class org.osgi.util.tracker.ServiceTracker
 interface org.springframework.beans.factory.BeanFactory
 interface org.springframework.beans.factory.xml.DocumentLoader
 interface org.springframework.core.io.support.EncodedResource
@@ -92,10 +92,9 @@ class org.osgi.service.blueprint.reflect.CollectionMetadata
 class org.osgi.service.blueprint.reflect.MapMetadata
 class org.springframework.aop.framework.Advised
 class org.springframework.aop.support.AopUtils
-class org.springframework.beans.factory.FactoryBean
+interface org.springframework.beans.factory.FactoryBean
 class org.springframework.beans.factory.xml.BeansDtdResolver
 class org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver
-class org.springframework.context.support.AbstractApplicationContext
 class org.springframework.core.io.ClassPathResource
 class org.springframework.core.io.support.PathMatchingResourcePatternResolver
 class org.springframework.core.type.classreading.CachingMetadataReaderFactory

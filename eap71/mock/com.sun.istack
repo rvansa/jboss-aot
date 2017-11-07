@@ -2,4 +2,4 @@ interface org.apache.tools.ant.DynamicConfigurator
 class org.apache.tools.ant.Task
 class org.apache.tools.ant.BuildException extends Exception
 interface org.apache.tools.ant.IntrospectionHelper
-interface org.apache.tools.ant.AntClassLoader
+class org.apache.tools.ant.AntClassLoader

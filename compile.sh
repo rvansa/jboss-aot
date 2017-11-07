@@ -3,7 +3,7 @@ trap "exit" INT
 AOT=$(dirname $0)
 
 if [ -z "$JBOSS_HOME" ]; then
-   JBOSS_HOME=$HOME/runtime/jboss-eap-7.1-jdk9
+   JBOSS_HOME=$HOME/runtime/jboss-eap-7.1.0.CR2-jdk9
 fi
 if [ -z "$VERSION" ]; then
    VERSION=eap71
@@ -48,7 +48,7 @@ dependencies() {
 # Note: This is used only when generating the required files
 needs_class() {
    CLASSNAME=$1
-   MODULE=`sed -n "s/$CLASSNAME .*layers\/base\/\(.*\)\/[^/]*\/[^/]*jar/\1/p" $AOT/eap.txt | tr '/' '.'`
+   MODULE=`sed -n "s/$CLASSNAME .*layers\/base\/\(.*\)\/[^/]*\/[^/]*jar/\1/p" $AOT/$VERSION/classes.txt | tr '/' '.'`
    echo "Missing $CLASSNAME in $NAME, found? $MODULE"
    if [ -n "$MODULE" ]; then
       if grep $MODULE' *$' $AOT/$VERSION/deps/$NAME; then
@@ -182,9 +182,9 @@ for MODULE_XML in `find $JBOSS_HOME/modules -iname 'module.xml'`; do
 # The code below automatically tries to fix common errors (with --fix argument)
    if grep "Failed compilation" /tmp/$NAME.out > /dev/null; then
       rm $AOT/$VERSION/lib/lib$NAME.so      
-      sed -n 's/.*Failed compilation: \([^:]*\).*/exclude \1/p' /tmp/$NAME.out > $AOT/commands/$NAME.suggested     
+      sed -n 's/.*Failed compilation: \([^:]*\).*/exclude \1/p' /tmp/$NAME.out > $AOT/$VERSION/commands/$NAME.suggested     
       echo "Exclude suggestions: " $NAME.suggested
-      if [ "$1" == "--fix" ]; then exit 1; fi
+      if [ "$1" != "--fix" ]; then exit 1; fi
       for CLASSNAME in `sed -n '/Could not initialize/d;s/.*\(ClassNotFoundException\|NoClassDefFoundError\): //p' /tmp/$NAME.out | tr '/' '.'`; do
          needs_class $CLASSNAME
       done
@@ -195,7 +195,7 @@ for MODULE_XML in `find $JBOSS_HOME/modules -iname 'module.xml'`; do
       if [[ $LINE == WARNING* ]]; then continue; fi
       CLASSNAME=`sed -n -e 's/.*ClassDefFoundError: \(.*\)/\1/p' < /tmp/$NAME.err | tr '/' '.' | head -n 1`
       if [ -z "$CLASSNAME" ]; then exit 1; fi;
-      if [ "$1" == "--fix" ]; then exit 1; fi
+      if [ "$1" != "--fix" ]; then exit 1; fi
       needs_class $CLASSNAME
       $AOT/compile.sh $1
       exit 1

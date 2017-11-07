@@ -1,0 +1,5 @@
+interface org.osgi.framework.BundleActivator
+interface org.osgi.util.tracker.ServiceTrackerCustomizer
+interface org.osgi.framework.BundleContext
+interface org.osgi.framework.ServiceReference
+interface org.osgi.util.tracker.ServiceTracker
